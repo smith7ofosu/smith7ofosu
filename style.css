@@ -1,0 +1,265 @@
+body{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+}
+
+.home{
+    justify-content:space-between;
+    display: flex;
+    gap: 20px;
+    padding-right: 100px;
+    
+}
+
+.home h5:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.home h5:active{
+    text-decoration: underline;
+}
+
+.sp{
+    color: gray;
+    font-weight: 400;
+}
+
+/*first div css*/
+
+.div2{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+}
+
+.text1{
+    font-size: 20px;
+}
+
+.text1 h3{
+    font-size: 80px;
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    gap: 10px;
+}
+
+.text1 p{
+    margin-top: -80px;
+}
+
+.text1 button{
+   padding: 8px; 
+   border-radius: 20px;
+   border: 0.5px solid;
+   border-color: #022e02;
+   color: #022e02;
+   font-weight: 700;
+}
+
+.text1 button:hover{
+    background-color: #022e02;
+    color: #ffffff;
+}
+.image1{
+    padding-top: 40px;
+}
+
+
+/*second div css*/
+
+.div3{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.text2{
+  font-size: 20px;   
+}
+
+.text2 h3{
+    font-size: 80px;
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    gap: 10px;
+}
+
+.text2 p{
+    margin-top: -50px;
+}
+
+.text2 button{
+    padding: 10px;
+    border: 0.5px solid;
+    border-radius: 20px;
+    border-color: #022e02;
+    color: #022e02;
+    font-weight: 700;
+}
+
+
+.text2 button:hover{
+    background-color: #022e02;
+    color: #ffffff;
+}
+
+/*start of div4 css*/
+
+.div4{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.div4 h3{
+    font-size: 70px;
+    color: #008000;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.div4 p{
+    margin-top: -70px;
+}
+
+/*start of div5 css*/
+
+.div5{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 70px;
+    height: 250px;
+}
+
+.box1{
+    border: 0.5px solid;
+    padding: 30px;
+    background-color: #022e02;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.box1 h2{
+    text-align: center;
+}
+
+/*start of div6 css*/
+
+.div6{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.div6 h3{
+    font-size: 70px;
+    color: #008000;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.div6 p{
+    margin-top: -70px;
+}
+
+
+/*start of div7 css*/
+
+
+.div7{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 70px;
+}
+
+.box2{
+    border: 5px solid green;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 50px;
+    padding: 30px;
+}
+
+.image3{
+    background-color: rgba(128, 128, 128, 0.475);
+    border-radius: 200px;
+    width: 120px;
+    text-align: center;
+    margin-left: 50px;
+    width: 110px;
+    height: 110px;
+    background-image: url(./chriman.png);
+}
+
+.box2 h5{
+    text-align: center;
+    color: #008000;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.box2 p{
+    text-align: center;
+    margin-top: -20px;
+}
+
+/*start of div8 css*/
+
+.div8{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.box4 span{
+    color: gray;
+    font-weight: 400;
+}
+
+
+.box4 h4{
+     color: #008000;
+     text-align: center;
+}
+
+.box4 a{
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.box4 a:hover{
+    color: #008000;
+}
+
+/*last div*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+}
+
+footer p{
+    margin-left: 500px;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: #000000;
+}
